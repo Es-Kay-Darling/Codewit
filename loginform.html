@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Creating a form</title>
+</head>
+<body>
+    
+    <!-- to create a form you use 'form' -->
+    <!--NB: comes with an 'action' and a 'method'-->
+    <form action="submit.py" method=""> 
+        <p>
+            <h3>LOG INTO YOUR ACCOUNT</h3></br>
+            <input type="text" placeholder="username or email" name="username" required/>
+        </p>
+        <p>
+            <input type="password" placeholder="password" required/>
+        </p>
+        <button type="submit">Login</button><br/>
+        Don't have an account? Click <a href="singupform.html">here</a> to Sign Up <br/>
+    </form>
+</body>
+<style>
+    
+    input{
+        border-width:medium;
+    }
+    form{
+        margin: 10% auto;
+        padding: 20px;
+        background-color:aqua;
+        width:fit-content;
+        border-style: outset;
+    }
+    form input{
+        margin: 5px 11px;
+        padding: 3px 18px;
+        border-radius: 6px;
+    }
+    button{
+        margin: 5% 6% ;
+        padding: 1% 5%;
+        border-radius: 5px;
+        color: black;
+        cursor: pointer;
+        font-size: medium;
+    }
+    h3{
+        margin: 10px;
+        padding: 5px;
+        font-style: italic;
+    }
+</style>
+</html>
